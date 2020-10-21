@@ -98,7 +98,7 @@
 	(test (> ?x 1))
 	(test (neq ?mov derecha))
 	=>
-	(assert (dynamic robot =(- ?x 1) ?y =(- ?m 1) $?a $?b $?b movimiento izquierda nivel =(+ ?niv 1) prev ?f))
+	(assert (dynamic robot =(- ?x 1) ?y =(- ?m 1) $?a $?b movimiento izquierda nivel =(+ ?niv 1) prev ?f))
   	(bind ?*nod-gen* (+ ?*nod-gen* 1))
 	;;(printout t "Disparar y izquierda (" ?x ", " ?y ") -> (" (- ?x 1) ", " ?y ") Municion: " (- ?m 1) crlf)
 )
